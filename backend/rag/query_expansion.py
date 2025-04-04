@@ -38,7 +38,7 @@ class QueryExpansion(RAGStep):
         prompt = query_expansion_template.create_template(expand_to_n-1)
         model = ChatOpenAI(
             model="gpt-3.5-turbo",
-            api_key="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",
+            api_key="lol",
             temperature=0
         )
         chain = prompt | model
